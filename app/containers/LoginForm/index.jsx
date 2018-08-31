@@ -19,6 +19,6 @@ function mapStateToProps (state) {
 const LoginForm = connect(
   mapStateToProps,
   mapDispatchToProps
-)(Form)
+)(Form);
 
 export default LoginForm

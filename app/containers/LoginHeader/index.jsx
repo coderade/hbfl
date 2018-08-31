@@ -9,6 +9,6 @@ function mapStateToProps (state, ownProps) {
 
 const LoginHeader = connect(
   mapStateToProps
-)(Login)
+)(Login);
 
 export default LoginHeader

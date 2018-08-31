@@ -1,5 +1,5 @@
-function index (html, preloadedState) {
-  return `
+function index(html, preloadedState) {
+    return `
     <!doctype html>
     <html>
       <head>
@@ -18,4 +18,4 @@ function index (html, preloadedState) {
     `
 }
 
-module.exports = { index }
+module.exports = {index};

@@ -9,35 +9,35 @@ import User from '../scenes/User/index.jsx'
 import Config from '../scenes/Config/index.jsx'
 
 const routes = [
-  {
-    path: '/',
-    exact: true,
-    component: Main
-  }, {
-    path: '/hamsters',
-    component: Hamsters
-  }, {
-    path: '/hamster/:id',
-    component: Hamster
-  }, {
-    path: '/login',
-    component: Login
-  }, {
-    path: '/races',
-    component: Races
-  }, {
-    path: '/race/:id',
-    component: Race
-  }, {
-    path: '/leaderboards',
-    component: Leaderboards
-  }, {
-    path: '/user',
-    component: User
-  }, {
-    path: '/config',
-    component: Config
-  }
-]
+    {
+        path: '/',
+        exact: true,
+        component: Main
+    }, {
+        path: '/hamsters',
+        component: Hamsters
+    }, {
+        path: '/hamster/:id',
+        component: Hamster
+    }, {
+        path: '/login',
+        component: Login
+    }, {
+        path: '/races',
+        component: Races
+    }, {
+        path: '/race/:id',
+        component: Race
+    }, {
+        path: '/leaderboards',
+        component: Leaderboards
+    }, {
+        path: '/user',
+        component: User
+    }, {
+        path: '/config',
+        component: Config
+    }
+];
 
 export default routes

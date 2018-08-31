@@ -17,6 +17,6 @@ function mapDispatchToProps (dispatch) {
 const Config = connect(
   mapStateToProps,
   mapDispatchToProps
-)(Simulation)
+)(Simulation);
 
 export default Config

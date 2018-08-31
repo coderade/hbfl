@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import Grid from '../../components/hamsters/Grid/index.jsx'
 
 function mapStateToProps (state, ownProps) {
-  let hamsters = _.slice(state.hamsters, 0, ownProps.length)
+  let hamsters = _.slice(state.hamsters, 0, ownProps.length);
 
   if (state.user.favorites) {
     hamsters = hamsters.map((hamster) => {
@@ -22,6 +22,6 @@ function mapStateToProps (state, ownProps) {
 
 const HamstersGrid = connect(
   mapStateToProps
-)(Grid)
+)(Grid);
 
 export default HamstersGrid

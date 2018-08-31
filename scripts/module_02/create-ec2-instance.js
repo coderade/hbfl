@@ -11,30 +11,30 @@ const keyName = 'hamster_key'
 
 // Do all the things together
 createSecurityGroup(sgName)
-.then(() => {
-  return createKeyPair(keyName)
-})
-.then(helpers.persistKeyPair)
-.then(() => {
-  return createInstance(sgName, keyName)
-})
-.then((data) => {
-  console.log('Created instance with:', data)
-})
-.catch((err) => {
-  console.error('Failed to create instance with:', err)
-})
+    .then(() => {
+        return createKeyPair(keyName)
+    })
+    .then(helpers.persistKeyPair)
+    .then(() => {
+        return createInstance(sgName, keyName)
+    })
+    .then((data) => {
+        console.log('Created instance with:', data)
+    })
+    .catch((err) => {
+        console.error('Failed to create instance with:', err)
+    })
 
 // Create functions
 
-function createSecurityGroup (sgName) {
-  // TODO: Implement sg creation & setting SSH rule
+function createSecurityGroup(sgName) {
+    // TODO: Implement sg creation & setting SSH rule
 }
 
-function createKeyPair (keyName) {
-  // TODO: Create keypair
+function createKeyPair(keyName) {
+    // TODO: Create keypair
 }
 
-function createInstance (sgName, keyName) {
-  // TODO: create ec2 instance
+function createInstance(sgName, keyName) {
+    // TODO: create ec2 instance
 }

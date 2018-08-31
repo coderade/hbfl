@@ -10,6 +10,6 @@ function mapStateToProps (state, ownProps) {
 
 const RacesList = connect(
   mapStateToProps
-)(List)
+)(List);
 
 export default RacesList

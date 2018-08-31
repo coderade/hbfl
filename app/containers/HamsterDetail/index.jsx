@@ -3,11 +3,11 @@ import { connect } from 'react-redux'
 import Detail from '../../components/hamsters/Detail/index.jsx'
 
 function mapStateToProps (state, ownProps) {
-  const hamsterId = ownProps.id
-  const hamster = _.find(state.hamsters, hamster => hamster.id === hamsterId)
+  const hamsterId = ownProps.id;
+  const hamster = _.find(state.hamsters, hamster => hamster.id === hamsterId);
   const results = (hamster.results && hamster.results.length)
     ? hamster.results.map((result) => {
-      const race = _.find(state.races, race => race.id === result.raceId)
+      const race = _.find(state.races, race => race.id === result.raceId);
 
       return {
         raceId: result.raceId,
@@ -16,7 +16,7 @@ function mapStateToProps (state, ownProps) {
         date: race.date
       }
     })
-    : []
+    : [];
 
   return {
     loggedIn: state.user.loggedIn,
@@ -27,6 +27,6 @@ function mapStateToProps (state, ownProps) {
 
 const HamsterDetail = connect(
   mapStateToProps
-)(Detail)
+)(Detail);
 
 export default HamsterDetail

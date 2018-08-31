@@ -22,11 +22,11 @@ function fetch (dispatch) {
       .set('Accept', 'application/json')
       .end((err, res) => {
         if (err) {
-          console.error(err)
+          console.error(err);
           reject(err)
         } else {
-          console.log(res)
-          dispatch(info(res))
+          console.log(res);
+          dispatch(info(res));
           resolve(res)
         }
       })
@@ -36,6 +36,6 @@ function fetch (dispatch) {
 const UserDetail = connect(
   mapStateToProps,
   mapDispatchToProps
-)(Detail)
+)(Detail);
 
 export default UserDetail

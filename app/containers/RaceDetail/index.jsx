@@ -3,14 +3,14 @@ import { connect } from 'react-redux'
 import Detail from '../../components/races/Detail/index.jsx'
 
 function mapStateToProps (state, ownProps) {
-  const raceId = ownProps.id
-  let race = _.filter(state.races, race => race.id === raceId)[0]
-  let results
+  const raceId = ownProps.id;
+  let race = _.filter(state.races, race => race.id === raceId)[0];
+  let results;
 
   if (race.results) {
     results = race.results.map((result) => {
       const hamster = _.filter(state.hamsters,
-        hamster => hamster.id === result.hamsterId)[0]
+        hamster => hamster.id === result.hamsterId)[0];
 
       return {
         name: hamster.name,
@@ -22,7 +22,7 @@ function mapStateToProps (state, ownProps) {
     results = null
   }
 
-  race = Object.assign({}, race, { results })
+  race = Object.assign({}, race, { results });
 
   return {
     race
@@ -31,6 +31,6 @@ function mapStateToProps (state, ownProps) {
 
 const RaceDetail = connect(
   mapStateToProps
-)(Detail)
+)(Detail);
 
 export default RaceDetail

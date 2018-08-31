@@ -22,11 +22,11 @@ function fetch (dispatch) {
       .set('Accept', 'application/json')
       .end((err, res) => {
         if (err) {
-          console.error(err)
+          console.error(err);
           reject(err)
         } else {
-          console.log(res)
-          dispatch(update(res))
+          console.log(res);
+          dispatch(update(res));
           resolve(res)
         }
       })
@@ -36,6 +36,6 @@ function fetch (dispatch) {
 const LeaderboardList = connect(
   mapStateToProps,
   mapDispatchToProps
-)(List)
+)(List);
 
 export default LeaderboardList

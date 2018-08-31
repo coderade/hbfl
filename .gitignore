@@ -12,3 +12,15 @@ public/images/*-original.png
 
 # Serverless directories
 .serverless
+
+# IDE Files
+.idea/*
+
+# Logs
+.history
+*.log
+log/
+
+# Env files
+*.env
+

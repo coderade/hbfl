@@ -9,8 +9,8 @@ function mapStateToProps (state, ownProps) {
 function mapDispatchToProps (dispatch, ownProps) {
   return {
     onClick (e) {
-      e.stopPropagation()
-      e.preventDefault()
+      e.stopPropagation();
+      e.preventDefault();
       if (ownProps.favorite) {
         dispatch(doUnfavorite(ownProps.hamster))
       } else {
@@ -23,6 +23,6 @@ function mapDispatchToProps (dispatch, ownProps) {
 const HamsterFavorite = connect(
   mapStateToProps,
   mapDispatchToProps
-)(Favorite)
+)(Favorite);
 
 export default HamsterFavorite

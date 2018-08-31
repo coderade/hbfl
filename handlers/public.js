@@ -1,5 +1,5 @@
 module.exports = {
-  directory: {
-    path: 'public'
-  }
-}
+    directory: {
+        path: 'public'
+    }
+};
