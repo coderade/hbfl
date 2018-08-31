@@ -1,6 +1,8 @@
-## Demo Project for AWS Developer: Designing and Developing
+## Mario Kart race simulator web app NodeJs and AWS based
 
-This repository contains the demo project for the [AWS Developer: Designing and Developing course on Pluralsight.com](http://www.pluralsight.com/courses/aws-developer-designing-developing).
+Mario Kart race simulator web app NodeJs and AWS based
+
+This repository contains the demo project for the [AWS Developer: Designing and Developing course on Pluralsight.com](http://www.pluralsight.com/courses/aws-developer-designing-developing) basedon the [hbfl](https://github.com/ryanmurakami/hbfl) project.
 
 ## Known Issues
 
@@ -9,8 +11,6 @@ This repository contains the demo project for the [AWS Developer: Designing and 
 Found one? Please let me know by opening an [issue](https://github.com/ryanmurakami/hbfl/issues)!
 
 ## License
-
-All Images copyright Ryan Lewis
 
 All Code under MIT license
 
