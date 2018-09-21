@@ -13,7 +13,7 @@ class Main extends React.Component {
           <Hero />
           <div className={styles.body}>
             <div className={styles.sectionTitle}>
-              Featured Hamsters
+              Featured Racers
             </div>
             <HamsterGrid
               length={3}

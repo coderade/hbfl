@@ -13,11 +13,11 @@ class Header extends React.Component {
           <div className={styles.pink} />
         </div>
         <div className={styles.title}>
-          <Link to='/'>HBFL</Link>
+          <Link to='/'>MKRS</Link>
         </div>
         <div className={styles.menu}>
           <div><Link to='/races'>Races</Link></div>
-          <div><Link to='/hamsters'>Hamsters</Link></div>
+          <div><Link to='/hamsters'>Racers</Link></div>
           <div><Link to='/leaderboards'>Leaderboards</Link></div>
         </div>
         <div className={styles.login}>

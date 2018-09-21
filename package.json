@@ -1,7 +1,7 @@
 {
-  "name": "hbfl",
+  "name": "nodejs-aws-mkrs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mario Kart race simulator web app NodeJs and AWS based",
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/webpack-dev-server",
@@ -10,7 +10,7 @@
     "start": "./node_modules/.bin/forever stopall && ./node_modules/.bin/forever start index.js",
     "deploy": "node deploy.js"
   },
-  "author": "Ryan Lewis <ryan@ryanhlewis.com>",
+  "author": "[Valdeci Gomes <valdeci@valde.ci>, Ryan Lewis <ryan@ryanhlewis.com>",
   "license": "MIT",
   "dependencies": {
     "archiver": "2.0.3",

@@ -3,7 +3,7 @@ function index(html, preloadedState) {
     <!doctype html>
     <html>
       <head>
-        <title>Hamster Ball Fantasy League</title>
+        <title>Mario Kart Race Simulator</title>
         <link rel="stylesheet" href="stylesheet.css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500,500i,900i" rel="stylesheet" />
       </head>

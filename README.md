@@ -1,8 +1,14 @@
-## Mario Kart race simulator web app NodeJs and AWS based
+# nodejs-aws-mkrs
 
-Mario Kart race simulator web app NodeJs and AWS based
+Mario Kart race simulator web app NodeJs and AWS based.
 
-This repository contains the demo project for the [AWS Developer: Designing and Developing course on Pluralsight.com](http://www.pluralsight.com/courses/aws-developer-designing-developing) basedon the [hbfl](https://github.com/ryanmurakami/hbfl) project.
+![](doc/images/index.png)
+
+This repository project is based on the [hbfl](https://github.com/ryanmurakami/hbfl) project and 
+contains a project ready to used on the 
+[AWS Developer: Designing and Developing](http://www.pluralsight.com/courses/aws-developer-designing-developing) course 
+on [Pluralsight.com](https://www.pluralsight.com/)
+
 
 ## Known Issues
 

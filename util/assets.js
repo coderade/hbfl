@@ -1,13 +1,13 @@
-const base = '/public'
+const base = '/public';
 module.exports = {
-    hamster1: base + '/images/hamster-1-final.png',
-    hamster2: base + '/images/hamster-2-final.png',
-    hamster3: base + '/images/hamster-3-final.png',
-    hamster4: base + '/images/hamster-4-final.png',
-    hamster5: base + '/images/hamster-5-final.png',
-    hamster6: base + '/images/hamster-6-final.png',
+    mario: base + '/images/mario.png',
+    link: base + '/images/link.png',
+    bowser: base + '/images/bowser.png',
+    yoshi: base + '/images/yoshi.png',
+    donkeyKong: base + '/images/donkey-kong.png',
+    toad: base + '/images/toad.png',
     heart_active: base + '/images/heart.active.png',
     heart_inactive: base + '/images/heart.inactive.png',
-    main_ball: base + '/images/main-ball-final.png',
+    mkrs_logo: base + '/images/mkrs-logo.png',
     settings: base + '/images/settings.png'
-}
+};

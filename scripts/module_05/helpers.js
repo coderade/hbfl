@@ -6,37 +6,37 @@ const hamsterData = [
         id: 1,
         name: 'Zepto',
         type: 'Speedball',
-        src: assets.hamster1,
+        src: assets.mario,
         results: []
     }, {
         id: 2,
         name: 'Milkshake',
         type: 'Speedball',
-        src: assets.hamster2,
+        src: assets.link,
         results: []
     }, {
         id: 3,
         name: 'Fievel',
         type: 'Tiny Terror',
-        src: assets.hamster3,
+        src: assets.bowser,
         results: []
     }, {
         id: 4,
         name: 'Baby Ham',
         type: 'Roller',
-        src: assets.hamster4,
+        src: assets.yoshi,
         results: []
     }, {
         id: 5,
         name: 'Tater',
         type: 'Stealth',
-        src: assets.hamster5,
+        src: assets.donkeyKong,
         results: []
     }, {
         id: 6,
         name: 'Peter Pan',
         type: 'ZigZagger',
-        src: assets.hamster6,
+        src: assets.toad,
         results: []
     }
 ]
